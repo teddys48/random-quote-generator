@@ -40,7 +40,7 @@ export default function Home() {
               onClick={async () => await getData()}
             ></button>
           </span>
-          <span className="flex w-full justify-end text-justify">
+          <span className="flex w-full justify-end text-right">
             - {data ? data[0]?.author : ""}
           </span>
         </span>
